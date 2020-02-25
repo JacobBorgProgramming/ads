@@ -8,13 +8,14 @@
 
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
-        ['Site', 'JacobBorgProgramming','GroundsTechTalk 1','GroundsTechTalk 2'],
-        ['Estimated site views (JAN, 2020)',       336, 242, 0],
-        ['Estimated site views (FEB, 2020)',       618, 164, 10]
+        ['Category', 'Sites in network','Ads in network'],
+        ['DEC 2019',       0, 0],
+        ['JAN 2020',       3, 4],
+        ['FEB 2020',       3, 3]
       ]);
 
       var options = {
-        title: 'Site Views (Monthly)',
+        title: 'Network Stats (Monthly)',
         curveType: 'function',
         legend: { position: 'bottom' }
       };

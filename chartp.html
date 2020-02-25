@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['timeline']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var container = document.getElementById('timeline');
+      var chart = new google.visualization.Timeline(container);
+      var dataTable = new google.visualization.DataTable();
+
+      dataTable.addColumn({ type: 'string', id: 'ADID' });
+      dataTable.addColumn({ type: 'string', id: 'Name' });
+      dataTable.addColumn({ type: 'date', id: 'Start' });
+      dataTable.addColumn({ type: 'date', id: 'End' });
+      dataTable.addRows([
+        [ '1', 'Pending: 0000', new Date(2020, 0, 15), new Date(2020, 0, 20) ],
+        [ '1', 'Showing: 0000', new Date(2020, 0, 20), new Date(2020, 1, 25) ],
+        [ '2', 'Pending: 0001', new Date(2020, 0, 15), new Date(2020, 0, 20) ],
+        [ '2', 'Showing: 0001', new Date(2020, 0, 20), new Date(2020, 1, 25) ],
+        [ '3', 'Pending: 0002', new Date(2020, 0, 15), new Date(2020, 0, 20) ],
+        [ '3', 'Showing: 0002', new Date(2020, 0, 20), new Date(2020, 0, 22) ],
+        [ '3', 'Pending: 0002 (cancelled)', new Date(2020, 0, 25), new Date(2020, 0, 27) ],
+        [ '4', 'Pending: 0003', new Date(2020, 0, 25), new Date(2020, 0, 30) ],
+        [ '4', 'Showing: 0003', new Date(2020, 1, 1), new Date(2020, 1, 25) ],
+
+
+      ]);
+        var options = {
+          timeline: { groupByRowLabel: false },
+          timeline: { singleColor: '#8d8' }
+        };
+
+      chart.draw(dataTable, options);
+    }
+  </script>
+</head>
+<body>
+  <center><div id="timeline" style="width: 100%; height: 300px"></div></center>
+</body>
+</html>
