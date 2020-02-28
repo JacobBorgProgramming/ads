@@ -1,0 +1,15 @@
+<!--JazzBlocks required code-->
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+
+
+<p class="pc_l">Site Performance</p>
+<embed src="https://biz.borgcreative.com/chartm.html" width="100%" height="350px">
+  <p class="pc_l">Network Performance</p>
+  <embed src="https://biz.borgcreative.com/chartn.html" width="100%" height="350px">
+<p class="pc_l">Ad status</p>
+<embed src="https://biz.borgcreative.com/chartp.html" width="100%" height="350px">
