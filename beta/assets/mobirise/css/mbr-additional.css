@@ -4927,6 +4927,14 @@ section.lazy-placeholder:after {
 .cid-rS9dsUJk2Z {
   background-image: url("../../../assets/images/privacyblocks.jpg");
 }
+.cid-rSebz81GOd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rSebz81GOd P {
+  color: #767676;
+}
 .cid-rS9e4QMiQS {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -5000,6 +5008,92 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 767px) {
   .cid-rS9e4QMiQS .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.cid-rSebzDfmvk {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rSebzDfmvk P {
+  color: #767676;
+}
+.cid-rSebvzNPD2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #232323;
+}
+.cid-rSebvzNPD2 .card-icon {
+  font-size: 56px;
+  color: #f76f50;
+  transition: color 0.3s;
+}
+.cid-rSebvzNPD2 .card-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.cid-rSebvzNPD2 .link-ico {
+  font-size: 0.8rem;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  padding: 0.5rem 0;
+  font-weight: 900;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+.cid-rSebvzNPD2 .line {
+  width: 35px;
+  height: 3px;
+  display: inline-block;
+  background: #f76f50;
+  margin-bottom: 1.5rem;
+  transition: background 0.3s;
+}
+.cid-rSebvzNPD2 .card {
+  padding: 0!important;
+}
+.cid-rSebvzNPD2 .card-wrapper {
+  padding: 4rem;
+  transition: background 0.3s;
+}
+.cid-rSebvzNPD2 .card-wrapper:hover {
+  background: #f76f50;
+}
+.cid-rSebvzNPD2 .card-wrapper:hover .card-icon {
+  color: #1a1a1a;
+}
+.cid-rSebvzNPD2 .card-wrapper:hover .line {
+  background: #1a1a1a;
+}
+.cid-rSebvzNPD2 .card1 {
+  background: #1a1a1a;
+}
+.cid-rSebvzNPD2 .card2 {
+  background: #1f1f1f;
+}
+.cid-rSebvzNPD2 .card3 {
+  background: #242424;
+}
+.cid-rSebvzNPD2 .card4 {
+  background: #292929;
+}
+.cid-rSebvzNPD2 .card5 {
+  background: #2e2e2e;
+}
+.cid-rSebvzNPD2 .card6 {
+  background: #343434;
+}
+.cid-rSebvzNPD2 .col-lg-x {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  .cid-rSebvzNPD2 .col-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
