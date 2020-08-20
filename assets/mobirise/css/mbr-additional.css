@@ -2797,14 +2797,6 @@ section.lazy-placeholder:after {
 .cid-rRLCAWD6o4 {
   background-image: url("../../../assets/images/privacyblocks.jpg");
 }
-.cid-rRLEVu2R86 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #cecece;
-}
-.cid-rRLEVu2R86 .mbr-section-subtitle {
-  color: #767676;
-}
 .cid-rRLEzH7PSO {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2860,14 +2852,38 @@ section.lazy-placeholder:after {
     font-size: 4.25rem;
   }
 }
-.cid-rRLH2ANOuc {
+.cid-s8eJvtnIIq {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #1a1a1a;
 }
-.cid-rRLH2ANOuc .line {
+.cid-s8eJvtnIIq .line {
   background-color: #f76f50;
   color: #f76f50;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-s8eJvtnIIq .section-text {
+  padding: 2rem 0;
+  color: #cecece;
+}
+.cid-s8eJvtnIIq .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-s8eJvtnIIq .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-rRLH2ANOuc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f76f50;
+}
+.cid-rRLH2ANOuc .line {
+  background-color: #1a1a1a;
+  color: #1a1a1a;
   align: center;
   height: 2px;
   margin: 0 auto;
@@ -2886,7 +2902,7 @@ section.lazy-placeholder:after {
 .cid-rRLHEUYpgq {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #cecece;
+  background-color: #1a1a1a;
 }
 .cid-rRLHEUYpgq .line {
   background-color: #f76f50;
@@ -2897,6 +2913,7 @@ section.lazy-placeholder:after {
 }
 .cid-rRLHEUYpgq .section-text {
   padding: 2rem 0;
+  color: #cecece;
 }
 .cid-rRLHEUYpgq .inner-container {
   margin: 0 auto;
